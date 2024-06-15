@@ -36,7 +36,8 @@ class CountryModel {
     }
     
     func getNumberOfCountries() -> Int {
-        countries?.count ?? 0
+        print(countries?.count ?? 0)
+        return countries!.count
     }
 }
 

@@ -22,6 +22,8 @@ class CountryCollectionViewCell: UICollectionViewCell {
     func configCell(country: Country){
         countryName.text = country.name
         flagImage.image = UIImage(named: country.flagImage)
+        print(countryName.text ?? "text nada")
+        print(flagImage.image ?? "img nada")
     }
 
 }

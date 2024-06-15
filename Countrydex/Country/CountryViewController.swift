@@ -12,11 +12,10 @@ class CountryViewController: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     
     
-    let countryModel = try? CountryModel()
+    let countryModel = try! CountryModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         collectionView.dataSource = self
         collectionView.delegate = self
         let layout = UICollectionViewFlowLayout()
@@ -41,14 +40,14 @@ class CountryViewController: UIViewController {
 
 extension CountryViewController: UICollectionViewDataSource{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        countryModel?.getNumberOfCountries() ?? 0
+        countryModel.getNumberOfCountries()
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CountryCollectionViewCell
         
         
-        let country = countryModel?.getcountry(for: indexPath)
+        let country = countryModel.getcountry(for: indexPath)
         
         cell.configCell(country: country!)
         cell.country = country!
@@ -67,13 +66,13 @@ extension CountryViewController: UICollectionViewDelegateFlowLayout{
         CGSize(width: 300, height: 450)
     }
     
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let detail = TypeInfoViewController(nibName: "TypeInfoViewController", bundle: nil)
-        
-        detail.pokeType = pokeTypeModel.getPokeTypeFromPokeTypes(indexPath: indexPath)
-        
-        self.present(detail, animated: true)
-    }
+//    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+//        let detail = TypeInfoViewController(nibName: "TypeInfoViewController", bundle: nil)
+//        
+//        detail.pokeType = pokeTypeModel.getPokeTypeFromPokeTypes(indexPath: indexPath)
+//        
+//        self.present(detail, animated: true)
+//    }
 }
 
 

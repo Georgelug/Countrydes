@@ -15,13 +15,6 @@
 		552826AA2C14BAA9002810C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 552826A82C14BAA9002810C0 /* LaunchScreen.storyboard */; };
 		552826B42C14C1EF002810C0 /* CountryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552826B22C14C1EF002810C0 /* CountryCollectionViewCell.swift */; };
 		552826B52C14C1EF002810C0 /* CountryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 552826B32C14C1EF002810C0 /* CountryCollectionViewCell.xib */; };
-		552826C42C14C5DE002810C0 /* PointsOfInterest.json in Resources */ = {isa = PBXBuildFile; fileRef = 552826BD2C14C5DE002810C0 /* PointsOfInterest.json */; };
-		552826C52C14C5DE002810C0 /* Capitals.json in Resources */ = {isa = PBXBuildFile; fileRef = 552826BE2C14C5DE002810C0 /* Capitals.json */; };
-		552826C62C14C5DE002810C0 /* Countrys.json in Resources */ = {isa = PBXBuildFile; fileRef = 552826BF2C14C5DE002810C0 /* Countrys.json */; };
-		552826C72C14C5DE002810C0 /* Flags.json in Resources */ = {isa = PBXBuildFile; fileRef = 552826C02C14C5DE002810C0 /* Flags.json */; };
-		552826C82C14C5DE002810C0 /* Currency.json in Resources */ = {isa = PBXBuildFile; fileRef = 552826C12C14C5DE002810C0 /* Currency.json */; };
-		552826C92C14C5DE002810C0 /* CountriesDetails.json in Resources */ = {isa = PBXBuildFile; fileRef = 552826C22C14C5DE002810C0 /* CountriesDetails.json */; };
-		552826CA2C14C5DE002810C0 /* CurrencyConversion.json in Resources */ = {isa = PBXBuildFile; fileRef = 552826C32C14C5DE002810C0 /* CurrencyConversion.json */; };
 		552826CC2C14C63F002810C0 /* CountryDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552826CB2C14C63F002810C0 /* CountryDTO.swift */; };
 		552826CF2C14C6B0002810C0 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552826CE2C14C6B0002810C0 /* CountryModel.swift */; };
 		552826D12C14CA83002810C0 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552826D02C14CA83002810C0 /* Country.swift */; };
@@ -37,6 +30,13 @@
 		552826E52C14D083002810C0 /* PointsOfInterestDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552826E42C14D083002810C0 /* PointsOfInterestDTO.swift */; };
 		552826E72C14D283002810C0 /* ParserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552826E62C14D283002810C0 /* ParserData.swift */; };
 		552826EB2C14E8CB002810C0 /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552826EA2C14E8CB002810C0 /* CountryViewController.swift */; };
+		7D891A832C1D709100B22707 /* PointsOfInterest.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D891A7C2C1D709100B22707 /* PointsOfInterest.json */; };
+		7D891A842C1D709100B22707 /* Capitals.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D891A7D2C1D709100B22707 /* Capitals.json */; };
+		7D891A852C1D709100B22707 /* CountriesDetails.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D891A7E2C1D709100B22707 /* CountriesDetails.json */; };
+		7D891A862C1D709100B22707 /* Flags.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D891A7F2C1D709100B22707 /* Flags.json */; };
+		7D891A872C1D709100B22707 /* CurrencyConversion.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D891A802C1D709100B22707 /* CurrencyConversion.json */; };
+		7D891A882C1D709100B22707 /* Currency.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D891A812C1D709100B22707 /* Currency.json */; };
+		7D891A892C1D709100B22707 /* Countrys.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D891A822C1D709100B22707 /* Countrys.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,13 +50,6 @@
 		552826AB2C14BAA9002810C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		552826B22C14C1EF002810C0 /* CountryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCollectionViewCell.swift; sourceTree = "<group>"; };
 		552826B32C14C1EF002810C0 /* CountryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryCollectionViewCell.xib; sourceTree = "<group>"; };
-		552826BD2C14C5DE002810C0 /* PointsOfInterest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PointsOfInterest.json; path = ../../../../../../../../Downloads/Paises/PointsOfInterest.json; sourceTree = "<group>"; };
-		552826BE2C14C5DE002810C0 /* Capitals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Capitals.json; path = ../../../../../../../../Downloads/Paises/Capitals.json; sourceTree = "<group>"; };
-		552826BF2C14C5DE002810C0 /* Countrys.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Countrys.json; path = ../../../../../../../../Downloads/Paises/Countrys.json; sourceTree = "<group>"; };
-		552826C02C14C5DE002810C0 /* Flags.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Flags.json; path = ../../../../../../../../Downloads/Paises/Flags.json; sourceTree = "<group>"; };
-		552826C12C14C5DE002810C0 /* Currency.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Currency.json; path = ../../../../../../../../Downloads/Paises/Currency.json; sourceTree = "<group>"; };
-		552826C22C14C5DE002810C0 /* CountriesDetails.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CountriesDetails.json; path = ../../../../../../../../Downloads/Paises/CountriesDetails.json; sourceTree = "<group>"; };
-		552826C32C14C5DE002810C0 /* CurrencyConversion.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CurrencyConversion.json; path = ../../../../../../../../Downloads/Paises/CurrencyConversion.json; sourceTree = "<group>"; };
 		552826CB2C14C63F002810C0 /* CountryDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDTO.swift; sourceTree = "<group>"; };
 		552826CE2C14C6B0002810C0 /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
 		552826D02C14CA83002810C0 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
@@ -72,6 +65,13 @@
 		552826E42C14D083002810C0 /* PointsOfInterestDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsOfInterestDTO.swift; sourceTree = "<group>"; };
 		552826E62C14D283002810C0 /* ParserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserData.swift; sourceTree = "<group>"; };
 		552826EA2C14E8CB002810C0 /* CountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
+		7D891A7C2C1D709100B22707 /* PointsOfInterest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PointsOfInterest.json; path = "../../../../Paises 2/PointsOfInterest.json"; sourceTree = "<group>"; };
+		7D891A7D2C1D709100B22707 /* Capitals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Capitals.json; path = "../../../../Paises 2/Capitals.json"; sourceTree = "<group>"; };
+		7D891A7E2C1D709100B22707 /* CountriesDetails.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CountriesDetails.json; path = "../../../../Paises 2/CountriesDetails.json"; sourceTree = "<group>"; };
+		7D891A7F2C1D709100B22707 /* Flags.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Flags.json; path = "../../../../Paises 2/Flags.json"; sourceTree = "<group>"; };
+		7D891A802C1D709100B22707 /* CurrencyConversion.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = CurrencyConversion.json; path = "../../../../Paises 2/CurrencyConversion.json"; sourceTree = "<group>"; };
+		7D891A812C1D709100B22707 /* Currency.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Currency.json; path = "../../../../Paises 2/Currency.json"; sourceTree = "<group>"; };
+		7D891A822C1D709100B22707 /* Countrys.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Countrys.json; path = "../../../../Paises 2/Countrys.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +104,7 @@
 		5528269C2C14BAA7002810C0 /* Countrydex */ = {
 			isa = PBXGroup;
 			children = (
+				7D891A552C1D6F2600B22707 /* json */,
 				552826CD2C14C68C002810C0 /* Models */,
 				552826B82C14C3EB002810C0 /* Networking */,
 				552826B12C14C0D5002810C0 /* Country */,
@@ -132,23 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				552826BA2C14C40E002810C0 /* DTOS */,
-				552826B92C14C3F5002810C0 /* Countries */,
 			);
 			path = Networking;
-			sourceTree = "<group>";
-		};
-		552826B92C14C3F5002810C0 /* Countries */ = {
-			isa = PBXGroup;
-			children = (
-				552826BE2C14C5DE002810C0 /* Capitals.json */,
-				552826C22C14C5DE002810C0 /* CountriesDetails.json */,
-				552826BF2C14C5DE002810C0 /* Countrys.json */,
-				552826C12C14C5DE002810C0 /* Currency.json */,
-				552826C32C14C5DE002810C0 /* CurrencyConversion.json */,
-				552826C02C14C5DE002810C0 /* Flags.json */,
-				552826BD2C14C5DE002810C0 /* PointsOfInterest.json */,
-			);
-			path = Countries;
 			sourceTree = "<group>";
 		};
 		552826BA2C14C40E002810C0 /* DTOS */ = {
@@ -177,6 +163,20 @@
 				552826D82C14CE5A002810C0 /* Entity.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		7D891A552C1D6F2600B22707 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				7D891A7D2C1D709100B22707 /* Capitals.json */,
+				7D891A7E2C1D709100B22707 /* CountriesDetails.json */,
+				7D891A822C1D709100B22707 /* Countrys.json */,
+				7D891A812C1D709100B22707 /* Currency.json */,
+				7D891A802C1D709100B22707 /* CurrencyConversion.json */,
+				7D891A7F2C1D709100B22707 /* Flags.json */,
+				7D891A7C2C1D709100B22707 /* PointsOfInterest.json */,
+			);
+			path = json;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,16 +238,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				552826AA2C14BAA9002810C0 /* LaunchScreen.storyboard in Resources */,
-				552826C42C14C5DE002810C0 /* PointsOfInterest.json in Resources */,
-				552826C52C14C5DE002810C0 /* Capitals.json in Resources */,
-				552826C92C14C5DE002810C0 /* CountriesDetails.json in Resources */,
-				552826CA2C14C5DE002810C0 /* CurrencyConversion.json in Resources */,
+				7D891A832C1D709100B22707 /* PointsOfInterest.json in Resources */,
+				7D891A892C1D709100B22707 /* Countrys.json in Resources */,
+				7D891A842C1D709100B22707 /* Capitals.json in Resources */,
+				7D891A852C1D709100B22707 /* CountriesDetails.json in Resources */,
 				552826B52C14C1EF002810C0 /* CountryCollectionViewCell.xib in Resources */,
-				552826C62C14C5DE002810C0 /* Countrys.json in Resources */,
 				552826A72C14BAA9002810C0 /* Assets.xcassets in Resources */,
-				552826C82C14C5DE002810C0 /* Currency.json in Resources */,
 				552826A52C14BAA7002810C0 /* Main.storyboard in Resources */,
-				552826C72C14C5DE002810C0 /* Flags.json in Resources */,
+				7D891A862C1D709100B22707 /* Flags.json in Resources */,
+				7D891A882C1D709100B22707 /* Currency.json in Resources */,
+				7D891A872C1D709100B22707 /* CurrencyConversion.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
